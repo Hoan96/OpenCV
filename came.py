@@ -11,6 +11,6 @@ cv2.setMouseCallback('MyWindow', onMouse)
 print ("Showing camera feed. Click window or press any key to stop")
 success, frame = cameraCapture.read()
 #while success and cv2.waitKey(1) == -1 and not clicked:
- #cv2.imshow('MyWindow', frame)
- #success, frame = cameraCapture.read()
+cv2.imshow('MyWindow', frame)
+success, frame = cameraCapture.read()
 cv2.destroyWindow('MyWindow')
