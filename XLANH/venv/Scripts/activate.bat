@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Github_Project\XLANH\venv
+set VIRTUAL_ENV=D:\Langguese\Python\Study\OpenCV\XLANH\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
